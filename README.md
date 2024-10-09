@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/kf2f9eqbp68jh4y5?svg=true)](https://ci.appveyor.com/project/Professor-Severus-Snape/ra-props-catalog)
+
 # Список предложений
 
 Необходимо вывести список предложений каталога Etsy.com, используя библиотеку React. После загрузки данных и отрисовки список должен выглядеть так:
