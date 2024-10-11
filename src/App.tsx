@@ -8,8 +8,6 @@ export default function App() {
   const catalog: TCatalogItem[] = [];
 
   activeEtsy.forEach((item) => {
-    // NOTE: как решить проблему: Тип "string | undefined" не может быть назначен для "string" ???
-    // NOTE: почему нет такой проблемы с id, а есть с quantity, хотя и там и там тип 'number' ???
     catalog.push({
       id: item.listing_id,
       url: item.url || '',
